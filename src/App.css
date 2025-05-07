@@ -5,6 +5,11 @@
 .click-feedback {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
+
 .click-feedback:active {
   transform: scale(0.98);
+}
+
+.pe-cursor {
+  cursor: pointer;
 }
